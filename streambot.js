@@ -5,11 +5,11 @@ const axios = require('axios');
 var live_check = false;
 var streamer = "Enter Name Here";
 
-var discordtoken = fs.readFileSync('EnderBot/token.txt', 'utf8');
+var discordtoken = fs.readFileSync('token.txt', 'utf8');
 const client = new Discord.Client();
 client.login(discordtoken);
 
-var twitchtoken = fs.readFileSync('EnderBot/twitchsecret.txt', 'utf8');
+var twitchtoken = fs.readFileSync('twitchsecret.txt', 'utf8');
 var accesstoken;
 
 var loremessage;
